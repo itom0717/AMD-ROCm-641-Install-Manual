@@ -2,6 +2,7 @@
 * ROCm Ver.6.4.1用
 
 ## PC環境
+| 項目 | スペック |
 |:----|:---|
 | OS  | Windows 11 Pro |
 | CPU | AMD Ryzen9 7950X3D |
@@ -11,10 +12,10 @@
 
 ## 導入手順
 1. 事前準備
- 1. 最新のAMD Radeonドライバーをインストール
- 2. Visual Studio Codeをインストール
- 3. WSLの新規インストール
- * ここでは上記の手順は省略
+   1. 最新のAMD Radeonドライバーをインストール
+   2. Visual Studio Codeをインストール
+   3. WSLの新規インストール
+   * ここでは上記の手順は省略
 
 2. WSL2（Windows Subsystem for Linux 2）に Ubuntu 24.04 LTS を導入
    1. ターミナルを開く
