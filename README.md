@@ -210,7 +210,7 @@
       ```
       * Visual Studio Codeが起動されるので、以下を貼り付けて保存＆閉じる
       * Visual Studio Codeで保存時は必ず、改行コードはLFで保存する
-      * 必要なカスタムノードはお好みで追加・削除してください
+      * 必要なカスタムノードはお好みで追加・削除してください、あとからComfyUI-Managerでインストールもできます
          ```
          cd ~
          source .python3_venv/bin/activate
@@ -281,7 +281,7 @@
 
 8. models用仮想HDD作成（任意実行）
 
-   * 基本的に各種 models は `~/ComfyUI/models` へ導入するが、別HHDへ入れて外部マウントする方式とする
+   * 基本的に各種 models は `~/ComfyUI/models` へ導入するが、別HDDへ入れて外部マウントする方式とする
    * 仮想HDD作成は WSL ではなく Windows ターミナル（管理者）で行う
    1. diskpartでVHDXを作成（パスと容量はお好みで 500000 → 500GB）
       ```
