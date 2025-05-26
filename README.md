@@ -522,6 +522,7 @@
    * 文字コードはShift JISに変更
    * 任意の場所に`ComfyUI641.bat`で保存
    * models用仮想HDD作成を作成しない場合は、マウント処理は不要
+   * ユーザー名の部分は各自の環境に合わせて修正してください
    ```
    @echo off
    wsl --mount "E:\ComfyUI\Models.vhdx" --vhd --name comfyUI_models
