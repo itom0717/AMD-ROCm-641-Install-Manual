@@ -218,6 +218,9 @@
          ComfyUI_PATH=~/ComfyUI
          COMFYUI_CUSTOM_NODES_PATH=${ComfyUI_PATH}/custom_nodes
 
+         #ONNXランタイムをインストールする
+         pip install onnxruntime
+
          #ComfyUIインストール
          cd ~
          git clone https://github.com/comfyanonymous/ComfyUI.git
@@ -245,6 +248,8 @@
          git clone https://github.com/shiimizu/ComfyUI_smZNodes.git
          git clone https://github.com/jags111/efficiency-nodes-comfyui.git
          git clone https://github.com/laksjdjf/cgem156-ComfyUI.git
+         git clone https://github.com/styler00dollar/ComfyUI-deepcache.git
+
 
          #カスタムノードに必要なモジュールをインストール
          cd ${COMFYUI_CUSTOM_NODES_PATH}
